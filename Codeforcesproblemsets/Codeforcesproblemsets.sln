@@ -5,6 +5,8 @@ VisualStudioVersion = 16.0.29926.136
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "977A_WrongSubtraction", "977A_WrongSubtraction\977A_WrongSubtraction.csproj", "{9175EBBA-A4B2-40E9-8CF0-BD0DCE5F810A}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "1030A_InSearchOfAnEasyProblem", "1030A_InSearchOfAnEasyProblem\1030A_InSearchOfAnEasyProblem.csproj", "{727C96E5-4825-4589-8744-CA88D7C55FB5}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{9175EBBA-A4B2-40E9-8CF0-BD0DCE5F810A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9175EBBA-A4B2-40E9-8CF0-BD0DCE5F810A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9175EBBA-A4B2-40E9-8CF0-BD0DCE5F810A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{727C96E5-4825-4589-8744-CA88D7C55FB5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{727C96E5-4825-4589-8744-CA88D7C55FB5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{727C96E5-4825-4589-8744-CA88D7C55FB5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{727C96E5-4825-4589-8744-CA88D7C55FB5}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
