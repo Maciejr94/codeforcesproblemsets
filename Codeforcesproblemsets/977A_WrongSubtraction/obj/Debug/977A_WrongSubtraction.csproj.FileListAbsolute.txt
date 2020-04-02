@@ -1,0 +1,7 @@
+C:\Users\Maciej\codeforcesproblemsets\Codeforcesproblemsets\977A_WrongSubtraction\obj\Debug\977A_WrongSubtraction.csprojAssemblyReference.cache
+C:\Users\Maciej\codeforcesproblemsets\Codeforcesproblemsets\977A_WrongSubtraction\obj\Debug\977A_WrongSubtraction.csproj.CoreCompileInputs.cache
+C:\Users\Maciej\codeforcesproblemsets\Codeforcesproblemsets\977A_WrongSubtraction\bin\Debug\977A_WrongSubtraction.exe.config
+C:\Users\Maciej\codeforcesproblemsets\Codeforcesproblemsets\977A_WrongSubtraction\bin\Debug\977A_WrongSubtraction.exe
+C:\Users\Maciej\codeforcesproblemsets\Codeforcesproblemsets\977A_WrongSubtraction\bin\Debug\977A_WrongSubtraction.pdb
+C:\Users\Maciej\codeforcesproblemsets\Codeforcesproblemsets\977A_WrongSubtraction\obj\Debug\977A_WrongSubtraction.exe
+C:\Users\Maciej\codeforcesproblemsets\Codeforcesproblemsets\977A_WrongSubtraction\obj\Debug\977A_WrongSubtraction.pdb
