@@ -21,6 +21,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "1097A_GennadyAndACardGame",
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "935A_FafaAndHisCompany", "935A_FafaAndHisCompany\935A_FafaAndHisCompany.csproj", "{D89D1397-54A5-4050-B500-1D82DB4B6804}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "959A_MahmoudAndEhabAndTheEvenOddGame", "959A_MahmoudAndEhabAndTheEvenOddGame\959A_MahmoudAndEhabAndTheEvenOddGame.csproj", "{304E9B35-D1A4-4DB1-AE0C-321E7E0E2474}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -63,6 +65,10 @@ Global
 		{D89D1397-54A5-4050-B500-1D82DB4B6804}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D89D1397-54A5-4050-B500-1D82DB4B6804}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D89D1397-54A5-4050-B500-1D82DB4B6804}.Release|Any CPU.Build.0 = Release|Any CPU
+		{304E9B35-D1A4-4DB1-AE0C-321E7E0E2474}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{304E9B35-D1A4-4DB1-AE0C-321E7E0E2474}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{304E9B35-D1A4-4DB1-AE0C-321E7E0E2474}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{304E9B35-D1A4-4DB1-AE0C-321E7E0E2474}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
