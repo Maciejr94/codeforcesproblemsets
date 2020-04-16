@@ -11,6 +11,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "791A_BearAndBigBrother", "7
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "705A_Hulk", "705A_Hulk\705A_Hulk.csproj", "{5814AB7B-E059-41B7-886D-3A88440621B0}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "785A_AntonAndPolyhedrons", "785A_AntonAndPolyhedrons\785A_AntonAndPolyhedrons.csproj", "{D2F86BAE-7092-493A-98DF-824FBEC0CA66}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +35,10 @@ Global
 		{5814AB7B-E059-41B7-886D-3A88440621B0}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5814AB7B-E059-41B7-886D-3A88440621B0}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5814AB7B-E059-41B7-886D-3A88440621B0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D2F86BAE-7092-493A-98DF-824FBEC0CA66}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D2F86BAE-7092-493A-98DF-824FBEC0CA66}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D2F86BAE-7092-493A-98DF-824FBEC0CA66}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D2F86BAE-7092-493A-98DF-824FBEC0CA66}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
