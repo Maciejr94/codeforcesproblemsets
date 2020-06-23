@@ -29,6 +29,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "1220A_Cards", "1220A_Cards\
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "1223A_CME", "1223A_CME\1223A_CME.csproj", "{7A789622-CB63-48FC-95A6-CEA076EEC18D}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "4A_Watermelon", "4A_Watermelon\4A_Watermelon.csproj", "{D1ABF60D-1481-4845-9E61-29ABCCB64B9D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -87,6 +89,10 @@ Global
 		{7A789622-CB63-48FC-95A6-CEA076EEC18D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7A789622-CB63-48FC-95A6-CEA076EEC18D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7A789622-CB63-48FC-95A6-CEA076EEC18D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D1ABF60D-1481-4845-9E61-29ABCCB64B9D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D1ABF60D-1481-4845-9E61-29ABCCB64B9D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D1ABF60D-1481-4845-9E61-29ABCCB64B9D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D1ABF60D-1481-4845-9E61-29ABCCB64B9D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
