@@ -31,6 +31,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "1223A_CME", "1223A_CME\1223
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "4A_Watermelon", "4A_Watermelon\4A_Watermelon.csproj", "{D1ABF60D-1481-4845-9E61-29ABCCB64B9D}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "71A_WayTooLongWords", "71A_WayTooLongWords\71A_WayTooLongWords.csproj", "{20F582E2-A45A-48F9-B28F-4524895C978C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -93,6 +95,10 @@ Global
 		{D1ABF60D-1481-4845-9E61-29ABCCB64B9D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D1ABF60D-1481-4845-9E61-29ABCCB64B9D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D1ABF60D-1481-4845-9E61-29ABCCB64B9D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{20F582E2-A45A-48F9-B28F-4524895C978C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{20F582E2-A45A-48F9-B28F-4524895C978C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{20F582E2-A45A-48F9-B28F-4524895C978C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{20F582E2-A45A-48F9-B28F-4524895C978C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
