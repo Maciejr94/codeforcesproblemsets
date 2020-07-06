@@ -33,6 +33,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "4A_Watermelon", "4A_Waterme
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "71A_WayTooLongWords", "71A_WayTooLongWords\71A_WayTooLongWords.csproj", "{20F582E2-A45A-48F9-B28F-4524895C978C}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "231A_Team", "231A_Team\231A_Team.csproj", "{ABFD62E3-6AE9-4994-8DBD-189A1DCF6B2A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -99,6 +101,10 @@ Global
 		{20F582E2-A45A-48F9-B28F-4524895C978C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{20F582E2-A45A-48F9-B28F-4524895C978C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{20F582E2-A45A-48F9-B28F-4524895C978C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ABFD62E3-6AE9-4994-8DBD-189A1DCF6B2A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ABFD62E3-6AE9-4994-8DBD-189A1DCF6B2A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ABFD62E3-6AE9-4994-8DBD-189A1DCF6B2A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ABFD62E3-6AE9-4994-8DBD-189A1DCF6B2A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
