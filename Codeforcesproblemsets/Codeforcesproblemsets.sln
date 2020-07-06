@@ -37,6 +37,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "231A_Team", "231A_Team\231A
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "158A_NextRound", "158A_NextRound\158A_NextRound.csproj", "{03AEAA40-6750-4B8F-ABEE-0EC763E00AC6}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "50A_DominoPiling", "50A_DominoPiling\50A_DominoPiling.csproj", "{C262DE19-13DA-45F6-A272-6D33F1A46BF4}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -111,6 +113,10 @@ Global
 		{03AEAA40-6750-4B8F-ABEE-0EC763E00AC6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{03AEAA40-6750-4B8F-ABEE-0EC763E00AC6}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{03AEAA40-6750-4B8F-ABEE-0EC763E00AC6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C262DE19-13DA-45F6-A272-6D33F1A46BF4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C262DE19-13DA-45F6-A272-6D33F1A46BF4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C262DE19-13DA-45F6-A272-6D33F1A46BF4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C262DE19-13DA-45F6-A272-6D33F1A46BF4}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
