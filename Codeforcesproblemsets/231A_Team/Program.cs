@@ -12,6 +12,7 @@ namespace _231A_Team
         {
             int result = 0;
             int n = int.Parse(Console.ReadLine());
+            //var str = Console.ReadLine().Split(' ');
             List<string> list = new List<string>();
             for(int i = 0; i < n; i++)
                 list.Add(Console.ReadLine().Replace(" ",""));
