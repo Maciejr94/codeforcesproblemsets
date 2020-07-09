@@ -39,6 +39,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "158A_NextRound", "158A_Next
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "50A_DominoPiling", "50A_DominoPiling\50A_DominoPiling.csproj", "{C262DE19-13DA-45F6-A272-6D33F1A46BF4}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BinarySearch", "BinarySearch\BinarySearch.csproj", "{B42AD58D-D0D0-44E7-8353-E01B389F569B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -117,6 +119,10 @@ Global
 		{C262DE19-13DA-45F6-A272-6D33F1A46BF4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C262DE19-13DA-45F6-A272-6D33F1A46BF4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C262DE19-13DA-45F6-A272-6D33F1A46BF4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B42AD58D-D0D0-44E7-8353-E01B389F569B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B42AD58D-D0D0-44E7-8353-E01B389F569B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B42AD58D-D0D0-44E7-8353-E01B389F569B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B42AD58D-D0D0-44E7-8353-E01B389F569B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
