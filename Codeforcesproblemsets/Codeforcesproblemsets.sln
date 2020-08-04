@@ -47,6 +47,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "1B_Spreadsheets", "1B_Sprea
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "2A_Winner", "2A_Winner\2A_Winner.csproj", "{F6ED00E2-1101-4DC2-8FF6-D66359A8365B}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "10A_PowerConsumptionCalculation", "10A_PowerConsumptionCalculation\10A_PowerConsumptionCalculation.csproj", "{EF1318F8-EFA9-4B18-8F65-A25BE65DA7F2}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -141,6 +143,10 @@ Global
 		{F6ED00E2-1101-4DC2-8FF6-D66359A8365B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F6ED00E2-1101-4DC2-8FF6-D66359A8365B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F6ED00E2-1101-4DC2-8FF6-D66359A8365B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EF1318F8-EFA9-4B18-8F65-A25BE65DA7F2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EF1318F8-EFA9-4B18-8F65-A25BE65DA7F2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EF1318F8-EFA9-4B18-8F65-A25BE65DA7F2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EF1318F8-EFA9-4B18-8F65-A25BE65DA7F2}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
