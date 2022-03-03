@@ -11,18 +11,17 @@ namespace ReverseList
         static LinkedList<int> linkedList = new LinkedList<int>(new[] { 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 });
         static List<int> list = new List<int> { 0, 1, 2, 3, 4, 5, 6, 7, 8, 9 };
         static string word = "vitamin";
-        static string palindrom = "Zakopanea na pokaz";
+        static string palindrom = "kayak";
         static void Main(string[] args)
-        {            
-            ReverseLinked();
-            Console.WriteLine();
-            ReverseList();
-            Console.WriteLine();
-            ReverseString();
-            Console.WriteLine();
+        {
+            //ReverseLinked();
+            //Console.WriteLine();
+            //ReverseList();
+            //Console.WriteLine();
+            //ReverseString();
+            //Console.WriteLine();
             Console.Write(IsPalindrom(palindrom));
-
-
+            
 
 
             Console.ReadKey();
@@ -79,6 +78,13 @@ namespace ReverseList
             }
 
             return true;
+        }
+
+        static int Factorial(int x)
+        {
+            if (x == 0)
+                return 1;
+            return x * Factorial(x - 1);
         }
     }
 }

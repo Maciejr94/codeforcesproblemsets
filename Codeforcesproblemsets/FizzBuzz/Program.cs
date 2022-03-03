@@ -11,7 +11,9 @@ namespace FizzBuzz
         static void Main(string[] args)
         {
             OneLaneFizzBuzz();
-            FizzBuzz();
+            //FizzBuzz();
+            Console.WriteLine("====================");
+            RecursiveFizzBuzz(100);
             Console.ReadLine();
         }
 
@@ -33,6 +35,15 @@ namespace FizzBuzz
         {
             for (int i = 1; i <= 100; i++)
                 Console.WriteLine(i % 15 == 0 ? "FizzBuzz" : i % 3 == 0 ? "Fizz" : i % 5 == 0 ? "Buzz" : i.ToString());
+        }
+
+        static void RecursiveFizzBuzz(int number)
+        {
+            if (number > 0)
+            {
+                RecursiveFizzBuzz(number - 1);
+                Console.WriteLine(number % 5 == 0 && number % 3 == 0 ? "FizzBuzz" : number % 3 == 0 ? "Fizz" : number % 5 == 0 ? "Buzz" : number.ToString());
+            }
         }
     }
 }

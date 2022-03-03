@@ -96,6 +96,28 @@ namespace BinaryTree
             }
         }
 
+        public void BFS(Node n)
+        {
+            if (n == null)
+                return;
+
+            Queue<Node> que = new Queue<Node>();
+            que.Enqueue(n);
+            
+            while(que.Count > 0)
+            {
+                Node node = que.Dequeue();
+                Console.WriteLine(node.value + " ");
+
+                if (node.leftNode != null)
+                    que.Enqueue(node.leftNode);
+
+                if (node.rightNode != null)
+                    que.Enqueue(node.rightNode);
+            }
+            
+        }
+
     }
 
     class Program
@@ -112,6 +134,7 @@ namespace BinaryTree
             tree.Insert(17);
             tree.Insert(10);
             Console.WriteLine("Tree length: " + tree.getLenghtRecur(tree.root));
+            tree.BFS(tree.root);
             Console.ReadLine();
             
         }
