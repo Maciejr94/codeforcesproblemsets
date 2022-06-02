@@ -18,6 +18,12 @@ namespace LeetcodeProblems
             this.left = left;
             this.right = right;
         }
+        public TreeNode(int x) 
+        { 
+            val = x; 
+        }
+
+
     }
     public static class PathSumIII
     {

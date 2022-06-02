@@ -102,10 +102,75 @@ namespace Brudnopis
 
         static void Main(string[] args)
         {
-            string s = "Hello World";
-            s.StringToPrint();
-            User u = new User("John", "Travolta", 45);
-            u.LogInfo();
+            //string s = "Hello World";
+            //s.StringToPrint();
+            //User u = new User("John", "Travolta", 45);
+            //u.LogInfo();
+            //int age = 34;
+            //string name = "William";
+            //string msg = string.Format("{1} is {0} years old.", name, age);
+            //Console.WriteLine(msg);
+            //var a = new Random().Next(0, 2);
+
+            //int test = 234_456;
+            //Console.WriteLine(test);
+            //Fun f = new Fun();
+            //f.ToString();
+            //Console.WriteLine(f._year);
+            //Console.WriteLine(f.changingSomethig());
+            //int[] vals = { 1, 2, 3, 4, 5 };
+
+            //Console.WriteLine(vals[^1]);
+
+
+            //ATest a = new ATest();
+            //Console.WriteLine(a.getStatic() );
+            //BTest b = new BTest();
+            //Console.WriteLine(a.getStatic() );
+            //int a = 4;
+            //int b = 7;
+            //Swap( ref a, ref b);
+            // Console.WriteLine("{0} - {1}", a, b);
+
+            A a = new A(7);
+            B b = new B(7);
+
+            b.v = 77;
+            a.v = 55;
+            Console.WriteLine("A = " + String.Format("{0}", a.v));
+            Console.WriteLine("B = " + String.Format("{0}", b.v));
+            testA(a);
+            testB(b);
+            Console.WriteLine("A = " + String.Format("{0}", a.v));
+            Console.WriteLine("B = " + String.Format("{0}", b.v));
+            testC(ref a);
+            testD(out b);
+            Console.WriteLine("A = " + String.Format("{0}", a.v));
+            Console.WriteLine("B = " + String.Format("{0}", b.v));
+            testE(b);
+            Console.WriteLine("B = " + String.Format("{0}", b.v));
+            Console.ReadLine();
+
+        }
+
+        static void testA(A a) { a.v = 14; }
+        static void testB(B b) { b.v = 14; }
+        static void testC(ref A a) { a.v = 14; }
+        static void testD(out B b) { b = new B(-13); }
+        static void testE(B b) { 
+            b = new B(66); 
+        }
+
+
+        static void Swap(ref int a, ref int b)
+        {
+            int temp = a;
+            a = b;
+            b = temp;
+
+            Console.WriteLine("Inside Swap method");
+            Console.WriteLine($"a is {a}");
+            Console.WriteLine($"b is {b}");
         }
 
     }

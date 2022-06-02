@@ -175,7 +175,7 @@ namespace LeetcodeProblems
             //Console.WriteLine(BrokenCalculator.BrokenCalc(2, 3));
             #endregion
             #region 1260
-            //int[][] arr = { new int[] { 1, 2, 3 }, new int[] { 4, 5, 6 }, new int[] { 7, 8, 9 } };
+            // int[][] arr = { new int[] { 1, 2, 3 }, new int[] { 4, 5, 6 }, new int[] { 7, 8, 9 } };
             //Shift2DGrid.ShiftGrid(arr, 1);
 
             #endregion
@@ -237,7 +237,318 @@ namespace LeetcodeProblems
             #region 171
             //ExcelSheetColumnNumber.TitleToNumber("FXSHRXW");
             #endregion
+            #region 141
+            //ListNode a = new ListNode(-4, null);
+            //ListNode b = new ListNode(0, a);
+            //ListNode c = new ListNode(2, b);
+            //ListNode d = new ListNode(3, c);
+            //c.next = c;
+            //Console.WriteLine( LinkedListCycle.HasCycle(d));
+            #endregion
+            #region 2
+            //ListNode l11 = new ListNode(3, null);
+            //ListNode l12 = new ListNode(4, l11);
+            //ListNode l13 = new ListNode(2, l12);
+
+            //ListNode l21 = new ListNode(4, null);
+            //ListNode l22 = new ListNode(6, l21);
+            //ListNode l23 = new ListNode(5, l22);
+
+            //ListNode l11 = new ListNode(9, null);
+            //ListNode l12 = new ListNode(9, l11);
+            //ListNode l13 = new ListNode(9, l12);
+            //ListNode l14 = new ListNode(9, l13);
+
+            //ListNode l21 = new ListNode(9, null);
+            //ListNode l22 = new ListNode(9, l21);
+            //AddTwoNumbers.AddTwoNumbersFunc(l14, l22);
+            #endregion
+            #region 61
+            //ListNode e = new ListNode(5, null);
+            //ListNode d = new ListNode(4, e);
+            //ListNode c = new ListNode(3, d);
+            //ListNode b = new ListNode(2, c);
+            //ListNode a = new ListNode(1, b);
+            //RotateList.RotateRight(a, 2);
+            #endregion
+            #region 138
+            //RotateList.RotateRight();
+            #endregion
+            #region 71
+            //SimplifyPath.SimplifyPathFunc("/home//foo/");
+            #endregion
+            #region 1249
+            //MinimumRemoveToMakeValidParentheses.MinRemoveToMakeValid("lee(t(c)o)de)");
+            #endregion
+            #region 946
+            //ValidateStackSequences.ValidateStackSequencesFunc(new int[] { 1, 2, 3, 4, 5 }, new int[] { 4, 5, 3, 2, 1 });
+            #endregion
+            #region 856
+            //ScoreOfParentheses.ScoreOfParenthesesFunc("()((()))");
+            #endregion
+            #region 316
+            //Console.WriteLine(RemoveDuplicateLetters.RemoveDuplicateLettersFunc("ecbacba"));
+
+            #endregion
+            #region 763
+            //PartitionLabels.PartitionLabelsFunc("ababcbacadefegdehijhklij");
+            #endregion
+            #region 1663
+            // Console.WriteLine(SmallestStringWithAGivenNumericValue.GetSmallestString(5, 73));
+            #endregion
+            #region 881
+            //BoatsToSavePeople.NumRescueBoats(new int[] { 3,8,7,1,4 }, 9);
+            #endregion
+            #region 1029
+            //TwoCityScheduling.TwoCitySchedCost(new int[][]
+            //{
+            //    new int[] { 10, 20 },
+            //    new int[] { 30, 200 },
+            //    new int[] { 400, 50 },
+            //    new int[] { 30, 20 }
+            //});
+            #endregion
+            #region 704
+            //Console.WriteLine(BinarySearch.Search(new int[] { 5 }, 5));
+            #endregion
+            #region 81
+            //SearchInRotatedSortedArrayII.Search(new int[] { 2, 5, 6, 0, 0, 1, 2 }, 1);
+            #endregion
+            #region 287 
+            //FindTheDuplicateNumber.FindDuplicate(new int[] { 1, 3, 4, 2, 2 });
+            #endregion
+            #region 74
+            //SearchA2DMatrix.SearchMatrix(new int[][] { new int[] { 1, 3, 5, 7 }, new int[] { 10, 11, 16, 20 }, new int[] { 23, 30, 34, 60 } }, 3);
+            //SearchA2DMatrix.SearchMatrix(new int[][] { new int[] { 1, 3, 5, 7 }, new int[] { 10, 11, 16, 20 }, new int[] { 23, 30, 34, 60 } }, 13);
+            //SearchA2DMatrix.SearchMatrix(new int[][] { new int[] { 1}, new int[] { 3 } }, 3);
+            //SearchA2DMatrix.SearchMatrix(new int[][] { new int[] { 1, 1 } }, 2);
+
+            #endregion
+            #region 875
+            //KokoEatingBananas.MinEatingSpeed(new int[] { 3, 6, 7, 11 }, 8);
+            #endregion
+            #region 410
+            //SplitArrayLargestSum.SplitArray(new int[] { 7, 2, 5, 10, 8 }, 2);
+            #endregion
+            #region 344
+            //ReverseString.ReverseStringFunc(new char[] {'h', 'e', 'l', 'l', 'o' });
+            #endregion
+            #region 680
+            //Console.WriteLine(ValidPalindromeII.ValidPalindrome("abca"));
+            #endregion
+            #region 31
+            //NextPermutation.NextPermutationFunc(new int[] { 1, 2, 3 });
+            #endregion
+            #region 1721
+            //ListNode e = new ListNode(5, null);
+            //ListNode d = new ListNode(4, e);
+            //ListNode c = new ListNode(3, d);
+            //ListNode b = new ListNode(2, c);
+            //ListNode a = new ListNode(1, b);
+            //SwappingNodesInALinkedList.SwapNodes(a,2);
+            #endregion
+            #region 11
+            //Console.WriteLine(ContainerWithMostWater.MaxArea(new int[] { 1, 8, 6, 2, 5, 4, 8, 3, 7 }));
+            #endregion
+            #region 923
+            //_3SumWithMultiplicity.ThreeSumMulti(new int[] { 1, 1, 2, 2, 3, 3, 4, 4, 5, 5 }, 8);
+            #endregion
+            #region 1046
+            //LastStoneWeight.LastStoneWeightFunc(new int[] { 2, 2 });
+            #endregion
+            #region 703
+            //KthLargestElementInAStream obj = new KthLargestElementInAStream(3, new int[] { 4, 5, 8, 2 });
+            //Console.WriteLine(obj.Add(3));
+            //Console.WriteLine(obj.Add(5));
+            //Console.WriteLine(obj.Add(10));
+            //Console.WriteLine(obj.Add(9));
+            //Console.WriteLine(obj.Add(4));
+
+            #endregion
+            #region 347
+            //TopKFrequentElements.TopKFrequent(new int[] { 1, 2 }, 2);
+            #endregion
+            #region 682
+            //BaseballGame.CalPoints(new string[] { "5", "-2", "4", "C", "D", "9", "+", "+" });
+            #endregion
+            #region 289
+            //GameOfLife.GameOfLifeFunc(new int[][] { new int[] { 0, 1, 0 }, new int[] { 0, 0, 1 }, new int[] { 1, 1, 1 }, new int[] { 0, 0, 0 } });
+            #endregion
+            #region 59
+            //SpiralMatrixII.GenerateMatrix(2);
+            #endregion
+            #region 700
+            //TreeNode e = new TreeNode(3);
+            //TreeNode d = new TreeNode(1);
+            //TreeNode c = new TreeNode(2, e, d);
+            //TreeNode b = new TreeNode(7);
+            //TreeNode a = new TreeNode(4, c, b);
+
+            //SearchInABinarySearchTree.SearchBST(a, 2);
+            #endregion
             //Console.WriteLine(Convert.ToInt32("100100111000000", 2));
+
+            #region 669
+            //TreeNode e = new TreeNode(1);
+            //TreeNode d = new TreeNode(2, e);
+            //TreeNode c = new TreeNode(0, null, d);
+            //TreeNode b = new TreeNode(4);
+            //TreeNode a = new TreeNode(3, c, b);
+
+            //TrimABinarySearchTree.TrimBST(a, 1, 3);
+            #endregion
+            #region 538
+            //TreeNode i = new TreeNode(8);
+            //TreeNode h = new TreeNode(3);
+
+            //TreeNode g = new TreeNode(7, null, i);
+            //TreeNode f = new TreeNode(5);
+
+            //TreeNode e = new TreeNode(2, null, h);
+            //TreeNode d = new TreeNode(0);
+
+            //TreeNode c = new TreeNode(6, f, g);
+            //TreeNode b = new TreeNode(1, d, e);
+
+            //TreeNode a = new TreeNode(4, b, c);
+
+            //ConvertBSTToGreaterTree.ConvertBST(a);
+            #endregion
+            #region 897
+
+            #endregion
+            #region 99
+            //TreeNode c = new TreeNode(2);
+            //TreeNode b = new TreeNode(3,null,c);
+            //TreeNode a = new TreeNode(1,b);
+            //RecoverBinarySearchTree.RecoverTree(a);
+            #endregion
+            #region 173
+            //TreeNode e = new TreeNode(9);
+            //TreeNode d = new TreeNode(20);
+            //TreeNode c = new TreeNode(15, e, d);
+            //TreeNode b = new TreeNode(3);
+            //TreeNode a = new TreeNode(7, b, c);
+            //BinarySearchTreeIterator bsti = new BinarySearchTreeIterator(a);
+            //int aa = bsti.Next();
+            //int bb = bsti.Next();
+            //bool cc = bsti.HasNext();
+            //int dd = bsti.Next();
+            #endregion
+            #region 705
+
+            #endregion
+            #region 1396
+            //DesignUndergroundSystem dus = new DesignUndergroundSystem();
+            //dus.CheckIn(45, "Leyton", 3);
+            //dus.CheckIn(32, "Paradise", 8);
+            //dus.CheckIn(27, "Leyton", 10);
+            //dus.CheckOut(45, "Waterloo", 15);
+            //dus.CheckOut(27, "Waterloo", 20);
+            //dus.CheckOut(32, "Cambridge", 22);
+            //dus.GetAverageTime("Paradise", "Cambridge");
+            #endregion
+            #region 284
+            //PeekingIterator pi = new PeekingIterator(new List<int> {1, 2, 3 }.GetEnumerator());
+            //var a = pi.Next();
+            //var b = pi.Peek();
+            //var c = pi.Next();
+            //var d = pi.Next();
+            //var e = pi.HasNext();
+            #endregion
+            #region 1584
+            //int[][] points = new int[][]
+            //{
+            //    new int[] { 0, 0 },
+            //    new int[] { 2, 2 },
+            //    new int[] { 3, 10 },
+            //    new int[] { 5, 2 },
+            //    new int[] { 7, 0 },
+
+            //};
+
+            //int[][] points2 = new int[][]
+            //{    
+            //    new int[] { 3, 12 },
+            //    new int[] { -2, 5 },
+            //    new int[] { -4, 1 },
+
+            //};
+
+            //MinCostToConnectAllPoints pctcap = new MinCostToConnectAllPoints();
+            //var result = pctcap.MinCostConnectPoints(points2);
+            #endregion
+            #region 17
+            // LetterCombinationsOfAPhoneNumber.LetterCombinations("23");
+            #endregion
+            #region 1641
+            //CountSortedVowelStrings.CountVowelStrings(2);
+            #endregion
+            #region 47
+            //PermutationsII.PermuteUnique(new int[] { 2, 2, 1, 1 });
+            #endregion
+            #region 116
+            //NodeTree g = new NodeTree(7);
+            //NodeTree f = new NodeTree(6);
+            //NodeTree e = new NodeTree(5);
+            //NodeTree d = new NodeTree(4);
+            //NodeTree c = new NodeTree(3, f, g);
+            //NodeTree b = new NodeTree(2, d, e);
+            //NodeTree a = new NodeTree(1, b, c);
+
+            //NodeTree test = PopulatingNextRightPointersInEachNode.Connect(a);
+            #endregion
+            #region 117 
+            //NodeTree g = new NodeTree(7);
+            //NodeTree e = new NodeTree(5);
+            //NodeTree d = new NodeTree(4);
+            //NodeTree c = new NodeTree(3, null, g);
+            //NodeTree b = new NodeTree(2, d, e);
+            //NodeTree a = new NodeTree(1, b, c);
+
+            //PopulatingNextRightPointersInEachNodeII.Connect(a);
+            #endregion
+            #region 1091
+            //ShortestPathInBinaryMatrix.ShortestPathBinaryMatrix(new int[][] { new int[] {0, 1}, new int[] {1, 0} });
+            #endregion
+            #region 1192
+            //List<IList<int>> connections = new List<IList<int>>();
+            //connections.Add(new List<int>() {1, 0 });
+            //connections.Add(new List<int>() {2, 0 });
+            //connections.Add(new List<int>() {3, 2 });
+            //connections.Add(new List<int>() {4, 2 });
+            //connections.Add(new List<int>() {4, 3 });
+            //connections.Add(new List<int>() {3, 0 });
+            //connections.Add(new List<int>() {4, 0 });
+            //CriticalConnectionsInANetwork.CriticalConnections(5, connections);
+            #endregion
+            #region 647
+            //PalindromicSubstrings.CountSubstrings("aba");
+            #endregion
+            #region 322
+            //CoinChange.CoinChangeFunc(new int[] { 2 }, 3);
+            #endregion
+            #region 1461
+            //CheckIfAStringContainsAllBinaryCodesOfSizeK.HasAllCodes("00110110", 2);
+            #endregion
+
+
+            int x = 1000000;
+            int y = 1000000;
+
+            // int xy = checked (x * y);
+          
+            // checked nie ma znaczenia dla float - nigdy nie jest sprawdzana arytmetyka
+            checked
+            {
+                decimal i = decimal.MaxValue;
+                while (true)
+                    i *= 500;
+            }
+
+            int a = int.MinValue;
+            a++;
+
             Console.ReadKey();
         }
     }
